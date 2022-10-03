@@ -1,0 +1,32 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.row {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.teste {
+    
+    text-align: left;
+}
+.teste1 {
+   
+    text-align: right;
+}

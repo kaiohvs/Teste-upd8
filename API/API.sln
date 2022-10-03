@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{3BD5D606-E175-4A8E-ABEA-F8252F6BC394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Infra", "Infra\API.Infra.csproj", "{491CBD28-D987-4A54-B0FD-5AA5BC11F3BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Business", "API.Business\API.Business.csproj", "{0E870DAF-49B6-43E0-9DD2-8C3EBD43B5A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BD5D606-E175-4A8E-ABEA-F8252F6BC394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD5D606-E175-4A8E-ABEA-F8252F6BC394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD5D606-E175-4A8E-ABEA-F8252F6BC394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD5D606-E175-4A8E-ABEA-F8252F6BC394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491CBD28-D987-4A54-B0FD-5AA5BC11F3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491CBD28-D987-4A54-B0FD-5AA5BC11F3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491CBD28-D987-4A54-B0FD-5AA5BC11F3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491CBD28-D987-4A54-B0FD-5AA5BC11F3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E870DAF-49B6-43E0-9DD2-8C3EBD43B5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E870DAF-49B6-43E0-9DD2-8C3EBD43B5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E870DAF-49B6-43E0-9DD2-8C3EBD43B5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E870DAF-49B6-43E0-9DD2-8C3EBD43B5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C687C57D-CDFF-445F-AA09-E1CB84FB9CBD}
+	EndGlobalSection
+EndGlobal
